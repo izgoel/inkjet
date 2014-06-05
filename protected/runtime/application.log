@@ -1,0 +1,33 @@
+2014/06/05 10:38:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "services".' in D:\development\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\development\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('services')
+#1 D:\development\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('services')
+#2 D:\development\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/services')
+#3 D:\development\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\development\xampp\htdocs\inkjet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inkjet/index.php?r=site/services
+HTTP_REFERER=http://localhost/inkjet/
+---
+2014/06/05 10:38:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "rubberstamp".' in D:\development\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\development\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('rubberstamp')
+#1 D:\development\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('rubberstamp')
+#2 D:\development\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/rubberstam...')
+#3 D:\development\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\development\xampp\htdocs\inkjet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inkjet/index.php?r=site/rubberstamp
+HTTP_REFERER=http://localhost/inkjet/index.php?r=site/services
+---
+2014/06/05 10:38:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "promotion".' in D:\development\xampp\htdocs\yii\framework\web\CController.php:483
+Stack trace:
+#0 D:\development\xampp\htdocs\yii\framework\web\CController.php(270): CController->missingAction('promotion')
+#1 D:\development\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('promotion')
+#2 D:\development\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/promotion')
+#3 D:\development\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 D:\development\xampp\htdocs\inkjet\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/inkjet/index.php?r=site/promotion
+HTTP_REFERER=http://localhost/inkjet/index.php?r=site/rubberstamp
+---

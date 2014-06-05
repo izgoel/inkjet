@@ -17,7 +17,7 @@
     <?php Yii::app()->bootstrap->register(); ?>
 </head>
 
-<body style="background: url('images/bg-picture.jpg');">
+<body style="background: url('images/background-grey-2.jpg');">
     <?php require_once('header.php')?>
     <div class="container" id="page">
     <div class="row-fluid">
