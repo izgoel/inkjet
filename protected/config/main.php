@@ -8,7 +8,9 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 return array(
         'theme'=>'bootstrap',
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Inkjet Ladkrabang',
+	'name'=>'Inkjet Ladkrabang, ป้ายลาดกระบัง',
+        'sourceLanguage' => 'en',
+        'language'=>'th_TH',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -91,6 +93,6 @@ return array(
 	// using Yii::app()->params['paramName']
 	'params'=>array(
 		// this is used in contact page
-		'adminEmail'=>'webmaster@example.com',
+		'adminEmail'=>'office@inkjet-LK.com',
 	),
 );
