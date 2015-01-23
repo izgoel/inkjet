@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <title><?php echo CHtml::encode($this->pageTitle.'- Print design'); ?></title>
+    <title><?php echo CHtml::encode($this->pageTitle.'- Inkjet Lad Krabang'); ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="language" content="th" />
     <meta name="robots" content="INDEX, FOLLOW"/>
