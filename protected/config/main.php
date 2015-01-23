@@ -8,9 +8,11 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 return array(
         'theme'=>'bootstrap',
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
-	'name'=>'Inkjet Ladkrabang, ป้ายลาดกระบัง',
+	'name'=>'ลาดกระบังอิงค์เจ็ท',
         'sourceLanguage' => 'en',
-        'language'=>'th_TH',
+        //'language'=>'th_TH',
+        'language'=>'th',
+        //'language'=>'en',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
