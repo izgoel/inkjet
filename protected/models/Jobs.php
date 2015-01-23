@@ -20,7 +20,8 @@
  */
 class Jobs extends CActiveRecord
 {
-	/**
+	public $customer;
+        /**
 	 * @return string the associated database table name
 	 */
 	public function tableName()
