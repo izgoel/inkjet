@@ -7,12 +7,13 @@ Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/bootstrap');
 // CWebApplication properties can be configured here.
 return array(
         'theme'=>'bootstrap',
+        //'theme'=>'abound',
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'ลาดกระบังอิงค์เจ็ท',
         'sourceLanguage' => 'en',
         //'language'=>'th_TH',
-        'language'=>'th',
-        //'language'=>'en',
+        //'language'=>'th',
+        'language'=>'en',
 
 	// preloading 'log' component
 	'preload'=>array('log'),
@@ -31,7 +32,7 @@ return array(
 			'password'=>'password',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
-                       'generatorPaths'=>array(
+                        'generatorPaths'=>array(
                             'bootstrap.gii',
                             ),
 		),

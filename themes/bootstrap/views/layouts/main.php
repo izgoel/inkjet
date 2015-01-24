@@ -11,7 +11,7 @@
     <meta name="keywords" content='พิมพ์ , ออกแบบ, ตรายาง, การออกแบบกราฟิก, การออกแบบเว็บ, 
                 แสตมป์, เครื่องแสตมป์'/>
     <meta name="description" content="ที่มีคุณภาพสูงออกแบบกราฟิกและการพิมพ์ ออกแบบเว็บไซต์ การผลิตและการขายของตรายาง"/>
-    <link rel="shortcut icon" href="images/favicon.png" />
+    <link rel="shortcut icon" href="images/own-logo.png" />
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/styles.css" />
     <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl ?>/js/jquery-cycle-plugin-all.js"></script>
     <?php Yii::app()->bootstrap->register(); ?>
@@ -32,8 +32,16 @@
                     'items'=>array(
                         array('label'=>Yii::t('messages','Home'), 'icon'=>'home','url'=>array('/site/index')),
                         //array('label'=>Yii::t('messages','Services'), 'url'=>array('/site/page', 'view'=>'about')),
-                        array('label'=>Yii::t('messages','Services'), 'url'=>array('/site/services')),
-                        array('label'=>Yii::t('messages','Rubber stamp'), 'url'=>array('/site/rubberstamp')),
+                        //array('label'=>Yii::t('messages','Services'), 'url'=>array('/site/services')),
+                        array('label'=>Yii::t('messages','Services'), 'url'=>'#'),
+                            'itemOptions'=>array('class'=>'dropdown','tabindex'=>"-1"),'linkOptions'=>array('class'=>'dropdown-toggle','data-toggle'=>"dropdown"), 
+                            'items'=>array(
+                            array('label'=>'My Messages <span class="badge badge-warning pull-right">26</span>', 'url'=>'#'),
+							array('label'=>'My Tasks <span class="badge badge-important pull-right">112</span>', 'url'=>'#'),
+							array('label'=>'My Invoices <span class="badge badge-info pull-right">12</span>', 'url'=>'#'),
+							array('label'=>'Separated link', 'url'=>'#'),
+							array('label'=>'One more separated link', 'url'=>'#')),
+                        //array('label'=>Yii::t('messages','Rubber stamp'), 'url'=>array('/site/rubberstamp')),
                         array('label'=>Yii::t('messages','Promotions'), 'url'=>array('/site/promotion')),
                         array('label'=>Yii::t('messages','Contact'), 'url'=>array('/site/contact')),
                     ),
