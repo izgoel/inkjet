@@ -7,6 +7,7 @@
         array('label'=>Yii::t('messages','Graphics services'), 'url'=>array('/site/graphicdesign'), 'active'=>true),
 //        array('label'=>Yii::t('messages','Copy & print service'), 'url'=>'#'),
         array('label'=>Yii::t('messages','Website design'), 'url'=>array('/site/webdesign')),
+        array('label'=>Yii::t('messages','Rubberstamp'),'url'=>array('/site/rubberstamp')),
     ),
 )); ?>
     </div>

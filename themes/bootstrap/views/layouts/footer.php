@@ -1,12 +1,15 @@
 	<div id="footer">
             <div class="row-fluid">
                 <div class="span6">
-                    <div class="lead">
-                    <p><b>INKJET LADKRABANG</b></p></div>
-                    <p style="font-size: 1em"> <b>621 หลวงแพ่ง  แขวงทับยาว </br> เขตลาดกระบัง  กทม  10510 </b></p>
-                    <!--<p><b>PRINT DESIGN</b> </br>300/30 On Nut Road </br>10520 Lat Krabang </br>
-                    Mobile: 0847 084288</p>-->
-                    
+                    <div class="media">
+                        <a class="pull-left">
+                           <img class="media-object" src="images/own-logo.png" alt="inkjet Ladkrabang" >
+                        </a>
+                            <div class="media-body">
+                               <h5 class="media-heading">INKJET LADKRABANG</h5>
+                               <p style="font-size: 1em"> <b>621 หลวงแพ่ง  แขวงทับยาว </br> เขตลาดกระบัง  กทม  10510 </b></p>
+                            </div>
+                    </div>
                 </div>
                 <div class="span3">
                     

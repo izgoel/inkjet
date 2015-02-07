@@ -115,4 +115,8 @@ class SiteController extends Controller
         {
             $this->render('webdesign');
         }
+        public function actionRubberstamp()
+        {
+            $this->render('rubberstamp');
+        }
 }
