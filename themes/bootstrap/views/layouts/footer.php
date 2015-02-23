@@ -1,5 +1,7 @@
-	<div id="footer">
+<div id="push"></div>
+<div id="footer">
             <div class="row-fluid">
+                <div class="container">
                 <div class="span6">
                     <div class="media">
                         <a class="pull-left">
@@ -22,4 +24,5 @@
                 </div>
 
             </div>
+                </div>
 	</div><!-- footer -->

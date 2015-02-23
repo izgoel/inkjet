@@ -2,7 +2,8 @@
 
 class SiteController extends Controller
 {
-	/**
+        public $layout='';
+        /**
 	 * Declares class-based actions.
 	 */
 	public function actions()
@@ -108,15 +109,42 @@ class SiteController extends Controller
 	}
         public function actionServices ()
         {
-            $layout= '//layouts/column2';
+            
+            $this->layout= '//layouts/column2';
+            $this->makeMenu();
             $this->render('services');
         }
         public function actionWebdesign()
         {
+            $this->layout= '//layouts/column2';
+            $this->makeMenu();
             $this->render('webdesign');
         }
         public function actionRubberstamp()
         {
+            $this->layout= '//layouts/column2';
+            $this->makeMenu();
             $this->render('rubberstamp');
+        }
+        public function actionOutdoor()
+        {
+            $this->layout= '//layouts/column2';
+            $this->makeMenu();
+            $this->render('outdoor');
+        }
+        public function actionIndoor()
+        {
+            $this->layout= '//layouts/column2';
+            $this->makeMenu();
+            $this->render('indoor');
+        }
+        private function makeMenu(){
+            $this->menu=array(
+                //array('label'=>Yii::t('messages','Graphics services'), 'url'=>array('/site/graphicdesign')),
+                array('label'=>Yii::t('messages','Outdoor printing'), 'url'=>array('/site/outdoor')),
+                array('label'=>Yii::t('messages','Indoor printing'), 'url'=>array('/site/indoor')),
+                array('label'=>Yii::t('messages','Rubberstamp'),'url'=>array('/site/rubberstamp')),
+                array('label'=>Yii::t('messages','Website design'), 'url'=>array('/site/webdesign')),//, 'active'=>true),
+            );
         }
 }

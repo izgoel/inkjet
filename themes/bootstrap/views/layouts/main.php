@@ -1,6 +1,6 @@
 <?php /* @var $this Controller */ ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="th">
 <head>
     <title><?php echo CHtml::encode($this->pageTitle.'- Inkjet Lad Krabang'); ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -11,13 +11,19 @@
     <meta name="keywords" content='พิมพ์ , ออกแบบ, ตรายาง, การออกแบบกราฟิก, การออกแบบเว็บ, 
                 แสตมป์, เครื่องแสตมป์'/>
     <meta name="description" content="ที่มีคุณภาพสูงออกแบบกราฟิกและการพิมพ์ ออกแบบเว็บไซต์ การผลิตและการขายของตรายาง"/>
+    <?php
+	  $baseUrl = Yii::app()->theme->baseUrl; 
+	  $cs = Yii::app()->getClientScript();
+	  Yii::app()->clientScript->registerCoreScript('jquery');
+	?>
     <link rel="shortcut icon" href="images/own-logo.png" />
     <link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/styles.css" />
     <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl ?>/js/jquery-cycle-plugin-all.js"></script>
     <?php Yii::app()->bootstrap->register(); ?>
 </head>
 
-<body style="background: url('images/background-grey-2.jpg');">
+    <body ><!--style="background: url('images/background-grey-2.jpg');">-->
+        <div id="wrap">
     <?php require_once('header.php')?>
     <div class="container" id="page">
     <div class="row-fluid">
@@ -69,6 +75,6 @@
 <?php require_once 'footer.php';?>
 
 </div><!-- page -->
-
+        </div>
 </body>
 </html>
