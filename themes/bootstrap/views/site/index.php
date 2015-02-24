@@ -11,17 +11,56 @@ $this->pageTitle=Yii::app()->name;
 <?php //$this->endWidget(); ?>
 
 <div class="row-fluid">
-    <div class="span3">
-        <h3><?php echo Yii::t('messages','Graphic design'); ?></h3> 
-        <p>เราจะทำให้การออกแบบกราฟิกที่ดีที่สุดสำหรับคุณ</p>
-        <p><a class="btn btn-small btn-warning" href="#">
-        <?php echo Yii::t('messages','View details')?> &raquo </a></p>
+    <div class="span6">
+        <?php
+            $this->beginWidget('zii.widgets.CPortlet', array(
+                'title'=>'Our Services',
+            ));?>
+        <div class="media">
+            <span class="pull-left">
+                <img src="images/gr-design.png" width="66" height="66" alt="Graphic design">
+            </span>
+            <div class="media-body">
+                <h4 class="media-heading"> <?php echo Yii::t('messages','Graphic design');?></h4>
+                        <p>เราจะทำให้การออกแบบกราฟิกที่ดีที่สุดสำหรับคุณ</p>
+            </div>            
+        </div>
+        <div class="media">
+            <span class="pull-left">
+                <img src="images/cmyk.png" width="66" height="66" alt="Print services">
+            </span>
+            <div class="media-body">
+                <h4 class="media-heading"><?php echo Yii::t('messages', 'Print services'); ?></h4>
+                <p>งานพิมพ์ของคุณในทุกขนาดและในหลายสื่อ</p>
+            </div>
+        </div>
+        <div class="media">
+            <span class="pull-left">
+                <img src="images/business-cards-icon.png" width="66" height="66" alt="Name cards, business cards">
+            </span>
+            <div class="media-body">
+                <h4 class="media-heading"><?php echo Yii::t('messages', 'Name cards, Business cards'); ?></h4>
+                <p>งานพิมพ์ของคุณในทุกขนาดและในหลายสื่อ</p>
+            </div>
+        </div>
     </div>
-    <div class="span3">
-        <h3><?php echo Yii::t('messages', 'Print services'); ?></h3>
-        <p>งานพิมพ์ของคุณในทุกขนาดและในหลายสื่อ</p>
-        <p><a class="btn btn-small btn-warning" href="#">
-        <?php echo Yii::t('messages','View details')?> &raquo </a></p>
+    <?php $this->endWidget()?>
+    <div class="span6">
+        <?php
+       //     $this->beginWidget('zii.widgets.CPortlet', array(
+         //       'title'=>'More Services',
+           // ));?>
+        <!--<span class="pull-left">-->
+        <img src="images/j-flag-01.png" max-width="90%" alt="J-Flag">
+        <!--</span>-->
+            <dl>
+                 <dt>J-Flag</dt>
+                 <dd>Price THB 900</dd>
+            </dl>
+        <span class="badge">J-Flag </span>
+        <span class="badge">J-Flag </span><b style="font-size: 0.9em;">Miso Web Design</b> นี้เป็น บริษัท ที่มีประสบการณ์ 
+            เราสามารถไปถึงสำหรับคุณเว็บไซต์ที่ดีในภาษาอังกฤษ, เยอรมันและไทย และราคาไม่แพง</p>
+        <?php //$this->endWidget()?>
     </div>
     <div class="span3">
         <h3><?php echo Yii::t('messages', 'rubber stamp'); ?></h3>
