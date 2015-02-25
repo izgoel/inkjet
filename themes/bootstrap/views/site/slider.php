@@ -4,15 +4,20 @@
         <div class="span4" id="s1" style="height:220px;">
             <img src="images/slider-01_01.png" width="300" height="210"/>
             <img src="images/slider-02_01.png" width="300" height="210"/>
+            <img src="images/slider-03_01.png" width="300" height="210"/>
+            <img src="images/slider-04_01.png" width="300" height="210"/>
         </div>
         <div class="span4" id="s2" style="height:220px;">
             <img src="images/slider-01_02.png" />
             <img src="images/slider-02_02.png" />
-
+            <img src="images/slider-03_02.png" width="300" height="210"/>
+            <img src="images/slider-04_02.png" width="300" height="210"/>
         </div>
         <div class="span4" id="s3" style="height:220px;">
             <img src="images/slider-01_03.png" />
             <img src="images/slider-02_03.png" />
+            <img src="images/slider-03_03.png" width="300" height="210"/>
+            <img src="images/slider-04_03.png" width="300" height="210"/>
         </div>
     </div>
     <script type="text/javascript">
