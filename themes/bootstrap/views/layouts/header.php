@@ -2,7 +2,7 @@
 <div class="row-fluid">
 
   <div class="span6">
-      <img src="images/own-logo.png" alt="print design" style="margin-top: 10px; margin-bottom: 10px;"/>
+      <img src="images/own-logo-big.png" alt="print design" style="margin-top: 10px; margin-bottom: 10px;"/>
   </div><!--/.span6 -->
   
   <!--<div class="span6">-->
