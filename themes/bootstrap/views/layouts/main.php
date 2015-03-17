@@ -41,7 +41,7 @@
                         //array('label'=>Yii::t('messages','Services'), 'url'=>array('/site/services')),
                         array('label'=>Yii::t('messages','Services'), 'url'=>array('/site/services')),
                         //array('label'=>Yii::t('messages','Rubber stamp'), 'url'=>array('/site/rubberstamp')),
-                        array('label'=>Yii::t('messages','Promotions'), 'url'=>array('/site/promotion')),
+                        //array('label'=>Yii::t('messages','Promotions'), 'url'=>array('/site/promotion')),
                         array('label'=>Yii::t('messages','Contact'), 'url'=>array('/site/contact')),
                     ),
                 ),

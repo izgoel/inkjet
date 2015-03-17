@@ -12,8 +12,8 @@ return array(
 	'name'=>'ลาดกระบังอิงค์เจ็ท',
         'sourceLanguage' => 'en',
         //'language'=>'th_TH',
-        //'language'=>'th',
-        'language'=>'en',
+        'language'=>'th',
+        //'language'=>'en',
 
 	// preloading 'log' component
 	'preload'=>array('log'),

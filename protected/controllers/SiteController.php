@@ -126,6 +126,12 @@ class SiteController extends Controller
             $this->makeMenu();
             $this->render('rubberstamp');
         }
+        public function actionPromotion()
+        {
+            $this->layout= '//layouts/column2';
+            $this->makeMenu();
+            $this->render('promotion');
+        }
         public function actionOutdoor()
         {
             $this->layout= '//layouts/column2';
