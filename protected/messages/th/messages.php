@@ -75,6 +75,8 @@ return  array(
     'Please fill out the following form to contact us. Thank you.'=>'กรุณากรอกแบบฟอร์มต่อไปนี้เพื่อติดต่อเรา ขอบคุณ',
     'Flashstamp machine'=>'เครื่องตรายางแฟลช',
     'Rubberstamp services'=>'บริการตรายาง',
+    'accessories'=>'อุปกรณ์',
+    'Accessories'=>'อุปกรณ์',
     
     
     );

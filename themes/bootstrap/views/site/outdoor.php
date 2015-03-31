@@ -1,9 +1,9 @@
 <?php
 $gridDataProvider = new CArrayDataProvider(array(
     array('id'=>1,'media'=>'Vinyl', 'first'=>'200', 'second'=>'150','third'=>'120'),
-    array('id'=>2,'media'=>'PP Sticker', 'first'=>'250', 'second'=>'','third'=>''),
-    array('id'=>3,'media'=>'PP Sticker clear', 'first'=>'300', 'second'=>'','third'=>''),
-    array('id'=>4,'media'=>'see through', 'first'=>'550', 'second'=>'','third'=>''),
+    array('id'=>2,'media'=>'PP Sticker', 'first'=>'250', 'second'=>'call','third'=>'call'),
+    array('id'=>3,'media'=>'PP Sticker clear', 'first'=>'300', 'second'=>'call','third'=>'call'),
+    array('id'=>4,'media'=>'see through', 'first'=>'550', 'second'=>'call','third'=>'call'),
     //array('media'=>'Stu', 'first'=>'Dent', 'language'=>'HTML','usage'=>'<span class="inlinebar">1,3,4,5,3,5</span>'),
 ));
 ?>

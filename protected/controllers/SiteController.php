@@ -144,13 +144,20 @@ class SiteController extends Controller
             $this->makeMenu();
             $this->render('indoor');
         }
+        public function actionAccessories()
+        {
+            $this->layout= '//layouts/column2';
+            $this->makeMenu();
+            $this->render('accessories');
+        }
         private function makeMenu(){
             $this->menu=array(
-                //array('label'=>Yii::t('messages','Graphics services'), 'url'=>array('/site/graphicdesign')),
                 array('label'=>Yii::t('messages','Outdoor printing'), 'url'=>array('/site/outdoor')),
                 array('label'=>Yii::t('messages','Indoor printing'), 'url'=>array('/site/indoor')),
                 array('label'=>Yii::t('messages','Rubberstamp'),'url'=>array('/site/rubberstamp')),
                 array('label'=>Yii::t('messages','Website design'), 'url'=>array('/site/webdesign')),//, 'active'=>true),
+                array('label'=>Yii::t('messages','Accessories'), 'url'=>array('/site/accessories')),
+
             );
         }
 }
